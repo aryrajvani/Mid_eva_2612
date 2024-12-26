@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Management</h1>
+        <form id="quizForm">
+            <input type="text" id="question" placeholder="What is unit of distance?" required>
+            <input type="text" id="optionA" placeholder="Litre" required>
+            <input type="text" id="optionb" placeholder="Km" required>
+            <input type="text" id="optionc" placeholder="Sec" required>
+            <input type="text" id="optiond" placeholder="Hertz" required>
+            <button type="Submit">Add Question</button>
+        </form>
+        <div id="questionsGrid"></div>
+    </div>
+    <script src="quiz.js"></script>
+    
+</body>
+</html>
